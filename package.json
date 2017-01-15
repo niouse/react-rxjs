@@ -1,12 +1,12 @@
 {
-  "name": "tuto_navGrid",
+  "name": "express-react",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "build": "browserify -g reactify ./public/javascripts/App.jsx --minified -o ./public/javascripts/bundle.js -t",
-    "watch": "watchify -v -g  reactify -p [ browserify-livereload --host 127.0.0.1 --port 1338 ] ./public/javascripts/App.jsx -o ./public/javascripts/bundle.js -t",
-    "clean": "rm ./public/javascripts/bundle.js"
+    "build": "browserify -g reactify ./app/App.jsx --minified -o ./app/bundle.js -t",
+    "watch": "watchify -v -g  reactify -p [ browserify-livereload --host 127.0.0.1 --port 1338 ] ./app/App.jsx -o ./app/bundle.js -t",
+    "clean": "rm ./app/bundle.js"
   },
   "dependencies": {
     "body-parser": "~1.13.2",

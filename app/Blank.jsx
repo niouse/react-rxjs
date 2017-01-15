@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
 
-import Checkbox from 'material-ui/Checkbox';
-
-import './csvExport.js';
 
 
 export default class Blank extends Component {
   
 	constructor(props) {
 		super(props);
-		// Operations usually carried out in componentWillMount go here
+
 	}
 	
 
@@ -21,13 +18,13 @@ export default class Blank extends Component {
 	
 	
 	test() {
-		alert(JSON.stringify(this.state.opt));
+		alert(JSON.stringify(this.state));
 	}
 	
 	render() {
 		return (
 			<div>
-			<p>Blank</p>
+			<h1>Blank component</h1>
 			</div>
 		);
 	}
