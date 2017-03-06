@@ -14,7 +14,7 @@ download .zip or clone git repository :
 
 $ git clone https://github.com/niouse/express-react   
 
-oepn terminal in folder and install dependancies :  
+oepn terminal in folder and install dependencies :  
 
 $ npm install  
 
