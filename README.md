@@ -12,16 +12,16 @@ No server side live reload.
 
 download .zip or clone git repository :  
 
-$ git clone https://github.com/niouse/express-react   
+    $ git clone https://github.com/niouse/express-react   
 
 oepn terminal in folder and install dependencies :  
 
-$ npm install  
+    $ npm install  
 
 create bundle and watch at files changes :  
 
-$ npm run watch  
+    $ npm run watch  
 
 start server in a new terminal :  
 
-$ npm start  
+    $ npm start  
